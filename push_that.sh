@@ -19,4 +19,7 @@ else
         done
      else
 	echo "Push réussi !!"
+     fi
+fi
+
 echo "Nom du commit: $commitMessage."
