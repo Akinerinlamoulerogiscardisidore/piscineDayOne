@@ -11,8 +11,8 @@ else
     if test "$?" != "0"
     then
 	while test "$?" != "0"
-        do
-          echo "Echec de nouveau."
+	do
+ echo "Echec de nouveau."
           git config --global pull.rebase false
 	  echo "J'ai fait une rebase."
           git push
