@@ -1,7 +1,3 @@
-!/bin/bash
-echo “running command from” $PWD
-cd $PWD
-git add .
-echo “Enter commit message: “
-git commit -am “$commitMessage”
+git commit -am $1
+git add -A
 git push
