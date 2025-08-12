@@ -3,4 +3,4 @@ git commit -am $commitMessage
 git add -A
 git push
 echo "Push réussi !!!"
-echo "Nom du commit: $commitMessage."
+echo "Nom du commit: $commitMessage.";;;;;
