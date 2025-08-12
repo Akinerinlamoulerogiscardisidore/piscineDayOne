@@ -2,6 +2,7 @@ read -p "Entrez le message de votre commit: " commitMessage
 git commit -am $commitMessage
 git add -A
 git push
+<<<<<<< HEAD
 if test "$?" = "0"
 then
     echo "Push réussi avec succés !!! "
@@ -24,3 +25,7 @@ else
 fi
 
  
+=======
+echo "Push réussi !!!"
+echo "Nom du commit: $commitMessage.";;;;;
+>>>>>>> refs/remotes/origin/main
