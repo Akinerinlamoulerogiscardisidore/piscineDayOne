@@ -13,7 +13,7 @@ else
 	while test "$?" != "0"
         do
           echo "Echec de nouveau."
-          git config pull.rebase true
+          git config --global pull.rebase true
 	  echo "J'ai fait une rebase."
           git push
         done
