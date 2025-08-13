@@ -12,6 +12,9 @@ else
 	do
 		echo "Echec de nouveau."
 		git pull --rebase origin main
+		git commit -am $1
+		git add -A
+		git push
 	done
 
 fi
