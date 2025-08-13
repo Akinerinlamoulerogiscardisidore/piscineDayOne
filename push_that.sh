@@ -11,6 +11,7 @@ else
     while test "$?" != "0"
 	do
 		echo "Echec de nouveau."
+		git pull --rebase origin main
 	done
 
 fi
