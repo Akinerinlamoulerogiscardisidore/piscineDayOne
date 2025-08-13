@@ -1,3 +1,2 @@
-# piscineDayOne 
-gdtrr jjj gbg
-Number **42**
+# Piscine Day One
+Task 05 and 06 finsished
