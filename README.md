@@ -1,2 +1,2 @@
-# Piscine Day One
-Task 05 and 06 finsished
+# Piscine Day One 
+Task 05 and 06 finished
