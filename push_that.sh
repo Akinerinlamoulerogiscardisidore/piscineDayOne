@@ -22,4 +22,4 @@ else
 fi
 
 echo "Push réussi !!!"
-echo "Nom du commit: $commitMessage."
+echo "Nom du commit: $1."
