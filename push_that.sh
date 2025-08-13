@@ -19,5 +19,5 @@ else
 
 fi
 
-echo "Push réussi !!!"
+echo "Dernier check. Push réussi !!!"
 echo "Nom du commit: $1"
