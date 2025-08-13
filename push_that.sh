@@ -4,7 +4,7 @@ git push
 
 if test "$?" = "0"
 then
-    echo "Push réussi avec succés !!! "
+    echo "Push réussi avec succès !!! "
 else
     echo "Tentative de push échouée. Essayons de réparer si possible les erreurs."
     git pull --rebase origin main
